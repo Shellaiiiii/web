@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Web Weaver Ode</title> 
+  <style>
+    body {    
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    } 
+    h1 { 
+      color: #00698f; 
+    }
+    
+    #content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #B5C0D0;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      text-align: left;
+      overflow-y: auto;
+      height: 70vh;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+    
+    p span {
+      font-weight: bold;
+      font-style: italic;
+    }
+
+
+    .code {
+      font-family: monospace;
+      font-size: 16px;
+      background-color: "#f7f7f7";
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    pre {
+      overflow-x: auto;
+    }
+  </style>
+</head> 
+<body> 
+  <h1>Ode to Rochelle: The Web Weaver </h1>
+  <div id="content"></div>
+  <script>
+    let webWeaver = "web weaver";
+    let alchemistOfTheBrowser = "alchemist of the browser";
+    let cssCloak = "CSS cloak";
+    let debuggingSpectacles = "debugging spectacles";
+    let responsiveSea = "responsive sea";
+    let seoWhisperer = "SEO whisperer";
+    let gitAlchemist = "Git alchemist";
+    let webDeveloper = "web developer";
+    let JavaScript = "JavaScript";
+    
+    let sentence1 = "In the <b>realm</b> of ones and zeros, where <b>pixels</b> dance and <b>code</b> unfurls, there resides a silent sorcerer, a " + webWeaver + " with dreams and <b>pearls</b>.";
+
+
+    let sentence2 = "<b>Rochelle</b>, the " + alchemistOfTheBrowser + ", Wields her keyboard like a <b>wand</b>, She conjures <b>pages</b> from thin air, <b>Painting</b> landscapes with lines so fond.";
+
+    let sentence3 = "Her <b>fingers</b> dance upon the <b>keys</b>, Crafting <b>tags</b> like musical notes, <b>HTML</b> whispers secrets to the breeze, As <b>Rochelle</b> orchestrates <b>symphonies</b> in quotes.";
+
+    let sentence4 = "Next, she dons her " + cssCloak + ", <b>Styling</b> elements with flair and grace, <b>Colors bloom</b>, <b>fonts sing</b>, layouts <b>evoke</b>, A <b>visual</b> ballet in this digital space.";
+
+    let sentence5 = "But wait, the <b>magic</b> deepens still, <b>Rochelle</b> summons " + JavaScript + " spells, Interactivity blooms at her <b>will</b>, <b>Forms</b> validate, <b>animations propel</b>.";
+
+    let sentence6 = "Yet, <b>bugs</b> creep in like shadows dark, <b>Rochelle</b> dons her " + debuggingSpectacles + ", Chasing <b>glitches</b> through the <b>code's arc</b>, She <b>tames</b> wild loops and elusive <b>variables</b>.";
+
+    let sentence7 = "<b>Across</b> screens, <b>devices</b>, and dimensions, <b>Rochelle</b> sails on the " + responsiveSea + ", Media queries <b>guide</b> her intentions, <b>Adapting</b> layouts with <b>fluidity</b>.";
+
+    let sentence8 = "In the <b>labyrinth</b> of search engines, <b>Rochelle</b> becomes an " + seoWhisperer + ", <b>Meta tags</b>, keywords, backlink strings, She crafts pathways to digital <b>wanderers</b>.";
+
+    let sentence9 = "Version control, a <b>mystical potion</b>, <b>Rochelle</b> brews commits in <b>Git's</b> cauldron, Branches fork, <b>merge</b> conflicts in motion, Her <b>repository</b> a saga of <b>code reborn</b>.";
+
+    let sentence10 = "And when the <b>moon</b> kisses the horizon, <b>Rochelle</b> unfurls his creation to the <b>world</b>, <b>Deployments</b> like shooting stars, arisen, His <b>website</b> sails, its sails <b>unfurled</b>.";
+
+    let sentence11 = "So here's to <b>Rochelle</b>, the " + webDeveloper + ", A poet of <b>pixels</b>, a composer of <b>clicks</b>, In the <b>binary</b> symphony, she's the reveler, Weaving dreams into the digital <b>matrix</b>.";
+
+    let contentDiv = document.getElementById("content");
+    
+
+    contentDiv.innerHTML += "<p>" + sentence1 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence2 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence3 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence4 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence5 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence6 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence7 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence8 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence9 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence10 + "</p>";
+    contentDiv.innerHTML += "<p>" + sentence11 + "</p>";
+    
+    function respond() {
+      const viewport = window.matchMedia("(max-width: 600px)");
+      if (viewport.matches) {
+        
+   document.body.style.backgroundImage ="url('blue.jpg')";
+      } else {
+   document.body.style.backgroundImage = "url('flower.jpg')";
+      }
+    }
+
+    respond();
+  </script> 
+</body>
+</html>
